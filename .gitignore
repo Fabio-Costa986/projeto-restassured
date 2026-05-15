@@ -1,0 +1,109 @@
+# ============================================================
+# Maven
+# ============================================================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ============================================================
+# Allure — resultados e reports gerados localmente
+# ============================================================
+target/allure-results/
+target/site/
+allure-report/
+allure-history/
+
+# ============================================================
+# IDEs
+# ============================================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ============================================================
+# Sistema Operacional
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+log/
+
+# ============================================================
+# Credenciais e configurações sensíveis
+# ============================================================
+*.env
+.env
+.env.*
+secrets.properties
+credentials.properties
+# Manter os arquivos de config de ambiente, mas ignorar qualquer
+# arquivo com senhas reais que não deve ir ao repositório
+**/local.properties
+
+# ============================================================
+# Java
+# ============================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ============================================================
+# Relatórios de testes gerados
+# ============================================================
+target/surefire-reports/
+target/failsafe-reports/
+target/checkstyle-result.xml
+
+# ============================================================
+# Maven Wrapper — manter o JAR e o properties
+# ============================================================
+# NÃO ignorar:
+# .mvn/wrapper/maven-wrapper.jar
+# .mvn/wrapper/maven-wrapper.properties

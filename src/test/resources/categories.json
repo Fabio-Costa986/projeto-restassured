@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bug do Produto",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*expected.*but was.*|.*Expected status code.*|.*equalTo.*"
+  },
+  {
+    "name": "Falha de Ambiente",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Connection refused.*|.*SocketTimeoutException.*|.*UnknownHostException.*"
+  },
+  {
+    "name": "Falha de Contrato (Schema)",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*does not match.*schema.*|.*JSON Schema.*"
+  },
+  {
+    "name": "Erro de Automação",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*NullPointerException.*|.*ClassCastException.*"
+  }
+]
