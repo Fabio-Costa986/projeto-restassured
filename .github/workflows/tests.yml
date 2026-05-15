@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: '0 6 * * 1-5' # segunda a sexta às 06h UTC
 
+permissions:
+  contents: write   # necessário para fazer push na branch gh-pages
+  pages: write
+  id-token: write
+
 jobs:
   smoke:
     name: Smoke Tests
