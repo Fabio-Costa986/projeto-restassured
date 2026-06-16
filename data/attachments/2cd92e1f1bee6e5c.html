@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;nome&quot;: &quot;Practical Leather Car 4660&quot;,
+    &quot;preco&quot;: 2209,
+    &quot;descricao&quot;: &quot;Soluta nihil quae incidunt rem sit.&quot;,
+    &quot;quantidade&quot;: 67
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNhcmxvc2VkdWFyZG8ucm9zZWlyYUB5YWhvby5jb20iLCJwYXNzd29yZCI6IlNlbmhhQDEyMyIsImlhdCI6MTc4MTYwOTEwOSwiZXhwIjoxNzgxNjA5NzA5fQ.As-0Lhi3rqa4LRSIFop2weWwuqqcSim2AGx94itSpmQ</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNhcmxvc2VkdWFyZG8ucm9zZWlyYUB5YWhvby5jb20iLCJwYXNzd29yZCI6IlNlbmhhQDEyMyIsImlhdCI6MTc4MTYwOTEwOSwiZXhwIjoxNzgxNjA5NzA5fQ.As-0Lhi3rqa4LRSIFop2weWwuqqcSim2AGx94itSpmQ&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Practical Leather Car 4660&quot;,
+    &quot;preco&quot;: 2209,
+    &quot;descricao&quot;: &quot;Soluta nihil quae incidunt rem sit.&quot;,
+    &quot;quantidade&quot;: 67
+}&#39;
+    </div>
+
