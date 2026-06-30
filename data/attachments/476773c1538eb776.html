@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;nome&quot;: &quot;Mediocre Steel Bottle 5970&quot;,
+    &quot;preco&quot;: 3405,
+    &quot;descricao&quot;: &quot;Voluptatem et deleniti voluptatum quis illum veritatis aut.&quot;,
+    &quot;quantidade&quot;: 124
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhZmxvci5yaWJhc0Bib2wuY29tLmJyIiwicGFzc3dvcmQiOiJTZW5oYUAxMjMiLCJpYXQiOjE3ODI4MTMxOTksImV4cCI6MTc4MjgxMzc5OX0.4p_A4wnW-1mnKlOoWVkTaQFPt0wpKn2Ln1i4TxiWdKA</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcmlhZmxvci5yaWJhc0Bib2wuY29tLmJyIiwicGFzc3dvcmQiOiJTZW5oYUAxMjMiLCJpYXQiOjE3ODI4MTMxOTksImV4cCI6MTc4MjgxMzc5OX0.4p_A4wnW-1mnKlOoWVkTaQFPt0wpKn2Ln1i4TxiWdKA&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Mediocre Steel Bottle 5970&quot;,
+    &quot;preco&quot;: 3405,
+    &quot;descricao&quot;: &quot;Voluptatem et deleniti voluptatum quis illum veritatis aut.&quot;,
+    &quot;quantidade&quot;: 124
+}&#39;
+    </div>
+
