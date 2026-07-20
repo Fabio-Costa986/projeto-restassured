@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;nome&quot;: &quot;Ergonomic Rubber Shoes 8683&quot;,
+    &quot;preco&quot;: 3613,
+    &quot;descricao&quot;: &quot;Hic nihil sequi enim blanditiis molestias facere commodi.&quot;,
+    &quot;quantidade&quot;: 85
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1vcmdhbmEuZ291bGFydEB5YWhvby5jb20iLCJwYXNzd29yZCI6IlNlbmhhQDEyMyIsImlhdCI6MTc4NDUzOTY0NiwiZXhwIjoxNzg0NTQwMjQ2fQ.6QL6wUF_qBZKb1HUJtRyejelGsacseK842qjC9PktxI</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1vcmdhbmEuZ291bGFydEB5YWhvby5jb20iLCJwYXNzd29yZCI6IlNlbmhhQDEyMyIsImlhdCI6MTc4NDUzOTY0NiwiZXhwIjoxNzg0NTQwMjQ2fQ.6QL6wUF_qBZKb1HUJtRyejelGsacseK842qjC9PktxI&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Ergonomic Rubber Shoes 8683&quot;,
+    &quot;preco&quot;: 3613,
+    &quot;descricao&quot;: &quot;Hic nihil sequi enim blanditiis molestias facere commodi.&quot;,
+    &quot;quantidade&quot;: 85
+}&#39;
+    </div>
+
