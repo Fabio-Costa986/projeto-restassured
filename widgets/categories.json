@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":2,"items":[{"uid":"e205309c5ae0612915b18a6e0061f419","name":"Bug do Produto","statistic":{"failed":6,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":6}},{"uid":"8fb3a91ba5aaf9de24cc8a92edc82b5d","name":"Product defects","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}}]}
