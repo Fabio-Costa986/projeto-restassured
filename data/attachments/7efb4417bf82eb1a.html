@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;nome&quot;: &quot;Aerodynamic Marble Lamp 7773&quot;,
+    &quot;preco&quot;: 1249,
+    &quot;descricao&quot;: &quot;Sequi ducimus cupiditate et sint.&quot;,
+    &quot;quantidade&quot;: 134
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhZWwubWVuZGVzQGJvbC5jb20uYnIiLCJwYXNzd29yZCI6IlNlbmhhQDEyMyIsImlhdCI6MTc4NjQzMjYzMywiZXhwIjoxNzg2NDMzMjMzfQ.P9L-1UN1tIekqfrTd1VtOgVpgqU_YmfdCUnW2H3UpKg</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhZWwubWVuZGVzQGJvbC5jb20uYnIiLCJwYXNzd29yZCI6IlNlbmhhQDEyMyIsImlhdCI6MTc4NjQzMjYzMywiZXhwIjoxNzg2NDMzMjMzfQ.P9L-1UN1tIekqfrTd1VtOgVpgqU_YmfdCUnW2H3UpKg&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Aerodynamic Marble Lamp 7773&quot;,
+    &quot;preco&quot;: 1249,
+    &quot;descricao&quot;: &quot;Sequi ducimus cupiditate et sint.&quot;,
+    &quot;quantidade&quot;: 134
+}&#39;
+    </div>
+
