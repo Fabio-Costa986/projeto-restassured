@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;nome&quot;: &quot;Incredible Concrete Wallet 6183&quot;,
+    &quot;preco&quot;: 2005,
+    &quot;descricao&quot;: &quot;Delectus occaecati dolores odio omnis.&quot;,
+    &quot;quantidade&quot;: 49
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvYW9zYW11ZWwubWFyaW5zQGhvdG1haWwuY29tIiwicGFzc3dvcmQiOiJTZW5oYUAxMjMiLCJpYXQiOjE3ODkxMjQ0MzAsImV4cCI6MTc4OTEyNTAzMH0.GRAKY0x8t_09oBe3Ryg_GiT36zXAkZDn6CsNI5znHK8</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvYW9zYW11ZWwubWFyaW5zQGhvdG1haWwuY29tIiwicGFzc3dvcmQiOiJTZW5oYUAxMjMiLCJpYXQiOjE3ODkxMjQ0MzAsImV4cCI6MTc4OTEyNTAzMH0.GRAKY0x8t_09oBe3Ryg_GiT36zXAkZDn6CsNI5znHK8&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Incredible Concrete Wallet 6183&quot;,
+    &quot;preco&quot;: 2005,
+    &quot;descricao&quot;: &quot;Delectus occaecati dolores odio omnis.&quot;,
+    &quot;quantidade&quot;: 49
+}&#39;
+    </div>
+
