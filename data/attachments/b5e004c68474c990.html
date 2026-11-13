@@ -1,0 +1,32 @@
+<div>POST to https://serverest.dev/produtos</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;nome&quot;: &quot;Rustic Steel Bench 7550&quot;,
+    &quot;preco&quot;: 3586,
+    &quot;descricao&quot;: &quot;Magnam dolorum molestiae occaecati ullam eos aliquam sint.&quot;,
+    &quot;quantidade&quot;: 138
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpbmljaXVzLmNhbWFjaG9AYm9sLmNvbS5iciIsInBhc3N3b3JkIjoiU2VuaGFAMTIzIiwiaWF0IjoxNzk0NTc5Nzk4LCJleHAiOjE3OTQ1ODAzOTh9.0IGha4tktJmGc80gxrQNh0HHTU_ryviuQGKvGYULzR0</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://serverest.dev/produtos&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpbmljaXVzLmNhbWFjaG9AYm9sLmNvbS5iciIsInBhc3N3b3JkIjoiU2VuaGFAMTIzIiwiaWF0IjoxNzk0NTc5Nzk4LCJleHAiOjE3OTQ1ODAzOTh9.0IGha4tktJmGc80gxrQNh0HHTU_ryviuQGKvGYULzR0&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;nome&quot;: &quot;Rustic Steel Bench 7550&quot;,
+    &quot;preco&quot;: 3586,
+    &quot;descricao&quot;: &quot;Magnam dolorum molestiae occaecati ullam eos aliquam sint.&quot;,
+    &quot;quantidade&quot;: 138
+}&#39;
+    </div>
+
